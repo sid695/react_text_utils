@@ -50,6 +50,7 @@ export default function TextForm(props) {
             onChange={handleOnChange}
             style={{backgroundColor:props.mode==='light'?'white':'#0a2351',color:props.mode==='light'?'black':'white'}}
             id="myBox"
+            
             rows="8"
           ></textarea>
         </div>
